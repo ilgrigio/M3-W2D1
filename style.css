@@ -11,13 +11,17 @@ h6 {
   color: white;
 }
 
-.main {
+main {
   border-radius: 15px;
 }
 
+main h2 {
+  text-shadow: 2px 2px 2px black;
+}
+
 .btn-success {
-  background-color: chartreuse;
-  border-color: chartreuse;
+  background-color: #21b755;
+  border-color: #21b755;
   color: #000;
 }
 
@@ -39,8 +43,24 @@ h6 {
 }
 
 .card-footer {
-  background-color: chartreuse;
+  background-color: #fff;
+  opacity: 0.5;
 }
 small.text-body-secondary {
   color: #000 !important;
+}
+
+.carousel h5,
+p {
+  text-shadow: 2px 2px 2px black;
+}
+
+.nav-link:hover {
+  background-color: hsla(144, 83%, 36%, 0.7);
+}
+
+button a {
+  text-decoration: none;
+  color: #21b755;
+  font-weight: 700;
 }
